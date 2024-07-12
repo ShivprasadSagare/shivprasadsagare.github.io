@@ -20,12 +20,10 @@ social: true # includes social icons at the bottom of the page
 
 Hello there👋 I hope you're having a good day🙂 Welcome to my digital space🙏 
 
-I’m a Machine Learning Scientist at PhroneticAI in Bengaluru, India. My current focus is on multimodal LLMs for video analytics, integrating audio🔊, visual🎥, and textual signals📝. 
+I’m a Machine Learning Scientist at PhroneticAI in Bengaluru, India. My current focus is on multimodal LLMs for video analytics, integrating audio🔊, visual🎥, and textual signals📝. Previously, as an Applied Researcher at NeuralSpace, I trained and deployed Speech-to-Text🗣️ systems.
 
-Previously, I was an Applied Research Scientist at NeuralSpace, where I developed Speech-to-Text🗣️ solutions for low-resource languages.
+In 2022, I completed my Master's by Research at Language Technologies and Research Centre, IIIT Hyderabad 🎓 My thesis work revolved around Text Generation Tasks in Low-Resource(especially Indian) Languages. 
 
-In 2022, I completed my Master's at IIIT Hyderabad🎓✨ with a thesis on Cross-Lingual Approaches for Text Generation Tasks in Low-Resource Languages. 
-
-I enjoy research and engineering of AI-based solutions. Apart from work, I write blogs, read novels. I also enjoy music, and try some yoga.
+Here, I share my learnings as a researcher and developer💻, plus some stories of my journey🌏. Apart from work, I am into novels📚, music🎹, and fitness🧘🏻‍♂️. I also like hiking🏔️, exploring cities🚏, and trying good coffees☕.
 
 

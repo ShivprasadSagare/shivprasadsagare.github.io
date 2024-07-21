@@ -1,114 +1,105 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{sagare-audio-visual,
+      title={Audio-visual training for improved grounding in video-text LLMs}, 
+      author={Shivprasad Sagare and Hemachandran S. and Kinshuk Sarabhai and Prashant Ullegaddi and Rajeshkumar SA},
+      month=sep,
+      year={2024},
+      abstract={Recent advances in multimodal LLMs, have led to several video-text models being proposed for critical video-related tasks. However, most of the previous works support visual input only, essentially muting the audio signal in the video. Few models that support both audio and visual input, are not explicitly trained on audio data. Hence, the effect of audio towards video understanding is largely unexplored. To this end, we propose a model architecture that handles audio-visual inputs explicitly. We train our model with both audio and visual data from a video instruction-tuning dataset. Comparison with vision-only baselines, and other audio-visual models showcase that training on audio data indeed leads to improved grounding of responses. For better evaluation of audio-visual models, we also release a human-annotated benchmark dataset, with audio-aware question-answer pairs.},
+      booktitle = "Proceedings of the 17th International Natural Language Generation Conference",
+      preview = chat_.png,
+      selected = true
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{sagare-rag,
+      title={VideoRAG: Scaling the context size and relevance for video question-answering}, 
+      author={Shivprasad Sagare and Prashant Ullegaddi and Nachiketh K S and Navnith R and Kinshuk Sarabhai and Rajeshkumar SA},
+      month=sep,
+      year={2024},
+      abstract={Recent advancements have led to the adaptation of several multimodal large language models (LLMs) for critical video-related use cases, particularly in Video Question-Answering (QA). However, most of the previous models sample only a limited number of frames from video due to the context size limit of backbone LLM. Another approach of applying temporal pooling to compress multiple frames, is also shown to saturate and does not scale well. These limitations cause videoQA on long videos to perform very poorly. To address this, we present VideoRAG, a system to utilize recently popularized Retrieval Augmented Generation (RAG) pipeline to select the top-k frames from video, relevant to the user query. We have observed a qualitative improvement in our experiments, indicating a promising direction to pursue. Additionally, our findings indicate that VideoRAG demonstrates superior performance when addressing needle-in-the-haystack questions in long videos. Our extensible system allows for trying multiple strategies for indexing, ranking, and adding QA models. },
+      booktitle = "Proceedings of the 17th International Natural Language Generation Conference",
+      preview = videorag.png
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{sagare-etal-2023-xf2t,
+    title = "{XF}2{T}: Cross-lingual Fact-to-Text Generation for Low-Resource Languages",
+    author = "Sagare, Shivprasad  and
+      Abhishek, Tushar  and
+      Singh, Bhavyajeet  and
+      Sharma, Anubhav  and
+      Gupta, Manish  and
+      Varma, Vasudeva",
+    editor = "Keet, C. Maria  and
+      Lee, Hung-Yi  and
+      Zarrie{\ss}, Sina",
+    booktitle = "Proceedings of the 16th International Natural Language Generation Conference",
+    month = sep,
+    year = "2023",
+    address = "Prague, Czechia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.inlg-main.2",
+    doi = "10.18653/v1/2023.inlg-main.2",
+    pages = "15--27",
+    preview = xf2t.png
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+@inproceedings{10.1145/3487553.3524265,
+author = {Abhishek, Tushar and Sagare, Shivprasad and Singh, Bhavyajeet and Sharma, Anubhav and Gupta, Manish and Varma, Vasudeva},
+title = {XAlign: Cross-lingual Fact-to-Text Alignment and Generation for Low-Resource Languages},
+year = {2022},
+isbn = {9781450391306},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3487553.3524265},
+doi = {10.1145/3487553.3524265},
+abstract = {Multiple critical scenarios need automated generation of descriptive text in low-resource (LR) languages given English fact triples. For example, Wikipedia text generation given English Infoboxes, automated generation of non-English product descriptions using English product attributes, etc. Previous work on fact-to-text (F2T) generation has focused on English only. Building an effective cross-lingual F2T (XF2T) system requires alignment between English structured facts and LR sentences. Either we need to manually obtain such alignment data at a large scale, which is expensive, or build automated models for cross-lingual alignment. To the best of our knowledge, there has been no previous attempt on automated cross-lingual alignment or generation for LR languages. We propose two unsupervised methods for cross-lingual alignment. We contribute XAlign, an XF2T dataset with 0.45M pairs across 8 languages, of which 5402 pairs have been manually annotated. We also train strong baseline XF2T generation models on XAlign. We make our code and dataset publicly available1, and hope that this will help advance further research in this critical area.},
+booktitle = {Companion Proceedings of the Web Conference 2022},
+pages = {171–175},
+numpages = {5},
+keywords = {fact-to-text, deep learning, XF2T},
+location = {Virtual Event, Lyon, France},
+series = {WWW '22},
+preview = xalign.png
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{10.1145/3543507.3583405,
+author = {Taunk, Dhaval and Sagare, Shivprasad and Patil, Anupam and Subramanian, Shivansh and Gupta, Manish and Varma, Vasudeva},
+title = {XWikiGen: Cross-lingual Summarization for Encyclopedic Text Generation in Low Resource Languages},
+year = {2023},
+isbn = {9781450394161},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3543507.3583405},
+doi = {10.1145/3543507.3583405},
+abstract = {Lack of encyclopedic text contributors, especially on Wikipedia, makes automated text generation for low resource (LR) languages a critical problem. Existing work on Wikipedia text generation has focused on English only where English reference articles are summarized to generate English Wikipedia pages. But, for low-resource languages, the scarcity of reference articles makes monolingual summarization ineffective in solving this problem. Hence, in this work, we propose XWikiGen, which is the task of cross-lingual multi-document summarization of text from multiple reference articles, written in various languages, to generate Wikipedia-style text. Accordingly, we contribute a benchmark dataset, XWikiRef, spanning ∼ 69K Wikipedia articles covering five domains and eight languages. We harness this dataset to train a two-stage system where the input is a set of citations and a section title and the output is a section-specific LR summary. The proposed system is based on a novel idea of neural unsupervised extractive summarization to coarsely identify salient information followed by a neural abstractive model to generate the section-specific text. Extensive experiments show that multi-domain training is better than the multi-lingual setup on average. We make our code and dataset publicly available1.},
+booktitle = {Proceedings of the ACM Web Conference 2023},
+pages = {1703–1713},
+numpages = {11},
+keywords = {Wikipedia text generation, XWikiGen, cross-lingual summarization, deep learning, low resource NLG},
+location = {Austin, TX, USA},
+series = {WWW '23},
+preview = xwikigen.png
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{daw-etal-2021-cross,
+    title = "Cross-lingual Alignment of Knowledge Graph Triples with Sentences",
+    author = "Daw, Swayatta  and
+      Sagare, Shivprasad  and
+      Abhishek, Tushar  and
+      Pudi, Vikram  and
+      Varma, Vasudeva",
+    editor = "Bandyopadhyay, Sivaji  and
+      Devi, Sobha Lalitha  and
+      Bhattacharyya, Pushpak",
+    booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON)",
+    month = dec,
+    year = "2021",
+    address = "National Institute of Technology Silchar, Silchar, India",
+    publisher = "NLP Association of India (NLPAI)",
+    url = "https://aclanthology.org/2021.icon-main.77",
+    pages = "629--637",
+    abstract = "The pairing of natural language sentences with knowledge graph triples is essential for many downstream tasks like data-to-text generation, facts extraction from sentences (semantic parsing), knowledge graph completion, etc. Most existing methods solve these downstream tasks using neural-based end-to-end approaches that require a large amount of well-aligned training data, which is difficult and expensive to acquire. Recently various unsupervised techniques have been proposed to alleviate this alignment step by automatically pairing the structured data (knowledge graph triples) with textual data. However, these approaches are not well suited for low resource languages that provide two major challenges: (1) unavailability of pair of triples and native text with the same content distribution and (2) limited Natural language Processing (NLP) resources. In this paper, we address the unsupervised pairing of knowledge graph triples with sentences for low resource languages, selecting Hindi as the low resource language. We propose cross-lingual pairing of English triples with Hindi sentences to mitigate the unavailability of content overlap. We propose two novel approaches: NER-based filtering with Semantic Similarity and Key-phrase Extraction with Relevance Ranking. We use our best method to create a collection of 29224 well-aligned English triples and Hindi sentence pairs. Additionally, we have also curated 350 human-annotated golden test datasets for evaluation. We make the code and dataset publicly available.",
+    preview = alignment.png
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}

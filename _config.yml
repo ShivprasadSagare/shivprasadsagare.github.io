@@ -8,7 +8,7 @@ middle_name:
 last_name: S.
 email: shivprasad.sagare@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio website of Shivprasad S.
+  Portfolio website of Shivprasad Sagare.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -167,12 +167,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
   - name: PhroneticAI
     posts:
       - url: https://www.phronetic.ai/blogs/owlet-a-family-of-lightweight-models-for-video-understanding
@@ -319,8 +313,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sagare]
+  first_name: [Shivprasad, S.]
 
   style: apa
   locale: en

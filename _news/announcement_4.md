@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our research works at National Science Museam, Tokyo. Japan is awesome⛩️.
+I presented our research works at the National Museum of Emerging Science and Innovation (Miraikan), Tokyo. Japan is awesome⛩️.

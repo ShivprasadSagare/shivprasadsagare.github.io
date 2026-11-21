@@ -37,7 +37,8 @@
         "Trained LLMs such as Qwen-3 for generating query suggestions using reinforcement learning techniques (DPO).",
         "Optimized LLM inference performance, delivering 4x higher throughput through FP8 quantization and model distillation.",
         "Trained lightweight BERT-based ranking models for real-time suggestion ranking under 10ms latency.",
-        "Led development of LLM-based evaluation metrics (LLM-as-a-judge), tuning prompts to correlate with human judgements."
+        "Led development of LLM-based evaluation metrics (LLM-as-a-judge), tuning prompts to correlate with human judgements.",
+        "Co-invented and filed US patent on leveraging sparse user preference data for suggestion list generation (MS# 508190-US01)."
       ],
       "url": "https://www.microsoft.com/",
       "location": "Hyderabad, India"
@@ -131,6 +132,15 @@
   ],
   "awards": [],
   "certificates": [],
+  "patents": [
+    {
+      "name": "Leveraging Sparse User Preference Data to Improve Suggestion List Generation",
+      "publisher": "US Patent Application Filed (Microsoft, MS# 508190-US01)",
+      "releaseDate": "2026-09",
+      "summary": "",
+      "url": ""
+    }
+  ],
   "publications": [
     {
       "name": "Audio-visual training for improved grounding in video-text LLMs",

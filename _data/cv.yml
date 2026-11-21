@@ -22,6 +22,7 @@
         - Optimized LLM inference performance, delivering 4x higher throughput via FP8 quantization and model distillation.
         - Trained lightweight BERT-based ranking models for real-time suggestion ranking under 10ms latency.
         - Led development of LLM-based evaluation metrics (LLM-as-a-judge), tuning prompts to correlate with human judgements.
+        - Co-invented and filed US patent on leveraging sparse user preference data for suggestion list generation (MS# 508190-US01).
     - title: Machine Learning Scientist
       institution: PhroneticAI, Bengaluru, India
       year: 2024 - 2025
@@ -60,3 +61,10 @@
       year: 2015 - 2019
       description:
         - First Class
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: Leveraging Sparse User Preference Data to Improve Suggestion List Generation
+      institution: US Patent Application Filed (Microsoft, MS# 508190-US01)
+      year: 2026.09

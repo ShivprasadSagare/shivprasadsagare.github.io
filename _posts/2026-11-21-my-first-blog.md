@@ -1,27 +1,32 @@
 ---
 layout: post
-title: "Draft Blog Post"
+title: "Starter Note: Post Template"
 date: 2026-11-21 10:00:00 +0530
-description: "A short one-line summary of the post."
-tags: [llm, search, ai]
+description: "A clean template for technical notes on LLMs, search, and multimodal AI."
+tags: [llm, search]
 categories: [notes]
+toc:
+  sidebar: left
 giscus_comments: false
 related_posts: false
 ---
 
 Write your introduction here...
 
-## Section 1
+## Context & Problem
 
-Add your thoughts, notes, or technical walkthrough here.
+Add your problem formulation, intuition, or architectural diagram here.
+
+## Key Insights
 
 ```python
-# Optional code snippet
-def hello():
-    return "Hello, world!"
+# Code snippets and LaTeX math ($$ \mathcal{L}_{\text{DPO}} $$) work out of the box
+def score_query(query: str) -> float:
+    return 1.0
 ```
 
 ## Takeaways
 
-- Key point 1
-- Key point 2
+- First takeaway
+- Second takeaway
+

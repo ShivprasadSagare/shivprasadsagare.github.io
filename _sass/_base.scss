@@ -501,31 +501,41 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    color: var(--global-text-color-light);
+    font-weight: 400;
   }
 }
 
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 1rem;
+  text-align: left;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
 
   ul {
-    justify-content: center;
+    justify-content: flex-start;
     display: flow-root;
 
     p,
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      padding: 0.5rem 0.4rem;
       color: var(--global-text-color-light);
+      font-size: 0.92rem;
     }
   }
 }

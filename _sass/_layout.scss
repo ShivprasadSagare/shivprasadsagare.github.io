@@ -6,6 +6,9 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.68;
+  -webkit-font-smoothing: antialiased;
 
   h1,
   h2,
@@ -14,6 +17,24 @@ body {
   h5,
   h6 {
     scroll-margin-top: 66px;
+    letter-spacing: -0.015em;
+  }
+}
+
+#markdown-content {
+  font-family: "Lora", Georgia, Cambria, "Times New Roman", serif;
+  font-size: 1.08rem;
+  line-height: 1.8;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
   }
 }
 
